@@ -1,11 +1,11 @@
-import random,sys,time,keyboard
+import random, sys, time, keyboard
 
 print('Магический шар приветсвует тебя')
 print('Нажмите на кнопку ПРОБЕЛ, что бы потрясти шар')
 print('Нажмите на кнопку esc, что бы выйти')
 
 
-def getAnswer(answerNumber):
+def getanswer(answerNumber):
     if answerNumber == 1:
         return 'Это несомненно!'
     elif answerNumber == 2:
@@ -25,14 +25,14 @@ def getAnswer(answerNumber):
     elif answerNumber == 9:
         return 'Очень сомневаюсь!'
 
+
 while True:
 
     if keyboard.is_pressed('esc'):
         sys.exit()
     elif keyboard.is_pressed(' '):
 
-
-        print('____________'+ getAnswer(random.randint(1, 9))+'_______________')
+        print(f'{getanswer(random.randint(1, 9)):#^50}')
         time.sleep(0.4)
         print('Магический шар приветсвует тебя')
         print('Нажмите на кнопку ПРОБЕЛ, что бы потрясти шар')

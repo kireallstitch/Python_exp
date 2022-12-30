@@ -1,11 +1,9 @@
-def spam():
-    eggs = 'spam local'
-    print(eggs) # prints 'spam local'
-def bacon():
-    eggs = 'bacon local'
-    print(eggs) # prints 'bacon local'
-    spam()
-    print(eggs) # prints 'bacon local'
-eggs = 'global'
-bacon()
-print(eggs) # prints 'global'
+def spam(divideBy):
+    return 42 / divideBy
+try:
+    print(spam(2))
+    print(spam(12))
+    print(spam(0))
+    print(spam(1))
+except ZeroDivisionError:
+    print('Error: Invalid argument.')
