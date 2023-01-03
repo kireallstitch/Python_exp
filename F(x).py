@@ -1,4 +1,4 @@
-def F(x):
++def F(x):
     return x ** 2
 for x in range(-10, 10):
     print('Для F('+str(x) + ') = '+str(F(x)))
