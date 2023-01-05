@@ -26,7 +26,7 @@ def draw_house(x, y, width, height):
     draw_house_roof(x, y - foundation_height - wall_height, width, roof_height)
 
 
-def draw_house_foundation(x, y, width,height):
+def draw_house_foundation(x, y, width, height):
     """
     Нарисовать основание домика ширины width и высоты height от опорной точки(x, y),
     которая находится в середине нижней точки фундамента.
@@ -40,12 +40,12 @@ def draw_house_foundation(x, y, width,height):
     pass
 
 
-def draw_house_walls(x, y, width,height):
+def draw_house_walls(x, y, width, height):
     print('Типа рисую стены...', x, y, width, height)
     pass
 
 
-def draw_house_roof(x, y, width,height):
+def draw_house_roof(x, y, width, height):
     print('Типа рисую крышу...', x, y, width, height)
     pass
  
