@@ -1,16 +1,16 @@
 spam = [
-        'q', 'w', 'e', 'r',
-        't', 'y', 'u', 'i',
-        'o', 'p', 'a', 's',
+        'a', 'b',
+        'x', 'y',
 ]
 
 
-def spam_and():
-    try:
-        spam[-1] = 'and ' + spam[-1]
-    except IndexError:
-        print('empty list')
+def comma_join(spam):
+    if len(spam) == 0:
+        return ''
+    if len(spam) == 1:
+        return str(spam[0])
+    spam[-1] = 'and ' + spam[-1]
+    return str(', '.join(spam))
 
 
-spam_and()
-print(', '.join(spam))
+print(comma_join(spam))
