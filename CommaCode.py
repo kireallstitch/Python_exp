@@ -4,7 +4,13 @@ spam = [
         ]
 
 
-def spamand(spam):
-    spam.insert(-1, 'and')
+def spam_and():
+    try:
+        spam[-1] = 'and ' + spam[-1]
+    except IndexError:
+        print('empty list')
     print(*spam, sep=', ')
-spamand(spam)
+#    print(', '.join(spam))
+
+
+spam_and()
