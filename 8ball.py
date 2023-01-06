@@ -1,11 +1,14 @@
-import random, sys, time, keyboard
+import random
+import sys
+import time
+import keyboard
 
-print('Магический шар приветсвует тебя')
+print('Магический Шар приветсвует тебя')
 print('Нажмите на кнопку ПРОБЕЛ, что бы потрясти шар')
-print('Нажмите на кнопку esc, что бы выйти')
+print('НАЖМИТЕ НА КНОПКУ ESC, ЧТО БЫ ВЫЙТИ')
 
 
-def getanswer(answerNumber):
+def get_answer(answerNumber):
     if answerNumber == 1:
         return 'Это несомненно!'
     elif answerNumber == 2:
@@ -32,8 +35,8 @@ while True:
         sys.exit()
     elif keyboard.is_pressed(' '):
 
-        print(f'{getanswer(random.randint(1, 9)):#^50}')
-        time.sleep(0.4)
+        print(f'{get_answer(random.randint(1, 9)):#^50}')
+        time.sleep(0.5)
         print('Магический шар приветсвует тебя')
         print('Нажмите на кнопку ПРОБЕЛ, что бы потрясти шар')
         print('Нажмите на кнопку esc, что бы выйти')
