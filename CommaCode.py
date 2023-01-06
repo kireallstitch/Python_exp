@@ -1,7 +1,7 @@
 spam = [
-        'apples', 'bananas',
-        'tofu', 'cats'
-        ]
+    'apples', 'bananas',
+    'tofu', 'cats'
+]
 
 
 def spam_and():
