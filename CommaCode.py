@@ -9,8 +9,7 @@ def spam_and():
         spam[-1] = 'and ' + spam[-1]
     except IndexError:
         print('empty list')
-    print(*spam, sep=', ')
-#    print(', '.join(spam))
+    print(', '.join(spam))
 
 
 spam_and()
