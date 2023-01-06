@@ -1,6 +1,7 @@
 spam = [
-    'apples', 'bananas',
-    'tofu', 'cats'
+        'q', 'w', 'e', 'r',
+        't', 'y', 'u', 'i',
+        'o', 'p', 'a', 's',
 ]
 
 
