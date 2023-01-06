@@ -4,7 +4,7 @@ spam = [
         ]
 
 
-def spamF(spam):
+def spamand(spam):
     spam.insert(-1, 'and')
     print(*spam, sep=', ')
-spamF(spam)
+spamand(spam)
