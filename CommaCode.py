@@ -6,5 +6,5 @@ spam = [
 
 def spamF(spam):
     spam.insert(3, 'and')
-    print(spam)
+    print(*spam, sep=', ')
 spamF(spam)
