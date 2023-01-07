@@ -1,34 +1,3 @@
-# import random
-#
-#
-# def flip():
-#     return bool(random.randint(0, 1))
-#
-#
-# def find_streak(count):
-#     current_ht = flip()
-#     current_streak = 1
-#     for i in range(1, count - 1):
-#         next_ht = flip()
-#         if current_ht == next_ht:
-#             current_streak += 1
-#         else:
-#             current_streak = 1
-#             current_ht = next_ht
-#         if current_streak == 6:
-#             return 1
-#     return 0
-#
-#
-# numberOfStreaks = 0
-# for experimentNumber in range(10000):
-#     # Код, создающий список из 100 значений 'heads' или 'tails'
-#     numberOfStreaks += find_streak(100)
-#     # Код, который проверяет, есть ли полоса из 6 орлов или решек подряд.
-# print('Chance of streak: %s%%' % (numberOfStreaks / 100))
-#
-#
-
 import random
 
 #variable declaration
