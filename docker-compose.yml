@@ -1,5 +1,9 @@
 version: "3.6"
 services:
   python:
-    image: python:latest
-
+    build: .
+    volumes:
+      - ".:/root/project"
+    entrypoint: ["python"]
+    command: ["/root/project/zigzag.py"]
+    working_dir: "/root/project"
