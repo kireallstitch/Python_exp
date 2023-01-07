@@ -26,7 +26,6 @@ while not done:
 
     # Clear the screen and set the screen background
     screen.fill("white")
-
     # Draw on the screen a green line from (0, 0) to (50, 30)
     # 5 pixels wide. Uses (r, g, b) color - medium sea green.
     pygame.draw.line(screen, (60, 179, 113), [0, 0], [50, 30], 5)
