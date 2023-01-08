@@ -5,5 +5,5 @@ services:
     volumes:
       - ".:/root/project"
     entrypoint: ["python"]
-    command: ["/root/project/zigzag.py"]
+    command: ["/root/project/GrocAlgs/grok2.py"]
     working_dir: "/root/project"
