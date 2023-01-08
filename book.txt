@@ -1,3 +1,5 @@
 Automatic boring stuff 145стр. Practice Projects
 Лекция №4 "Качество Кода"
 Прочитать документацию PEP8
+
+grokk вопросы стр 95 !!!
