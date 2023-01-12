@@ -1,5 +1,4 @@
-Automatic boring stuff 145стр. Practice Projects
+Automatic boring stuff 153 The setdefault() Method
 Лекция №4 "Качество Кода"
 Прочитать документацию PEP8
 
-grokk вопросы стр 101 !!!
