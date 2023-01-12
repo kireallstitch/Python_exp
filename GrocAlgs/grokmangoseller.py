@@ -2,7 +2,7 @@ from collections import deque
 
 
 graph = {}
-graph["you"] = ["alice", "ЬоЬ", "claire"]
+graph["you"] = ["alice", "bob", "claire"]
 graph["bob"] = ["anuj", "peggy"]
 graph["alice"] = ["peggy"]
 graph["claire"] = ["thom", "jonny"]
@@ -27,7 +27,7 @@ def search(name):
         person = search_queue.popleft()
         if not person in searched:
             if person_is_seller(person):
-                print(person) + " is a mango seller!"
+                print(person + " is a mango seller!")
                 return True
             else:
                 search_queue += graph[person]
