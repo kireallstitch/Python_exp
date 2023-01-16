@@ -15,9 +15,9 @@ class Dragon:
     def talk(self):
         print(self.name, 'health', self.health, '.Hit me')
 
-
     def final_cry(self):
         print(self.name, 'is dead...')
+
 
 def main():
     enemy_list = [Dragon('Smouge'), Dragon('Hidra')]
