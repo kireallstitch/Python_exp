@@ -16,6 +16,9 @@ class Dragon:
         print(self.name, 'health', self.health, '.Hit me')
 
 
+    def final_cry(self):
+        print(self.name, 'is dead...')
+
 def main():
     enemy_list = [Dragon('Smouge'), Dragon('Hidra')]
     finish = False
@@ -26,6 +29,7 @@ def main():
         enemy.get_damage(damage)
         if not enemy.alive():  # Удалить из списка мёртвого врага
             enemy_list.pop(0)
+            enemy.final_cry()
         if not enemy_list:  # Пусть ли список врагов
             finish = True
     print('You w0n!')
