@@ -1,4 +1,4 @@
-Automatic boring stuff 153 The setdefault() Method
+Automatic boring stuff 175 The setdefault() Method
 Лекция №4 "Качество Кода"
 Прочитать документацию PEP8
 
