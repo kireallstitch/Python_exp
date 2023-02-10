@@ -1,7 +1,5 @@
 def foo(x, y=0, z=0):
     return 100 * x + 10 * y + 1 * z
-
-
 def bar(*args, named_parameter="bar"):
     for arg in args:
         print(named_parameter,'arg=', arg)
