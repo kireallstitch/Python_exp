@@ -1,4 +1,4 @@
-Automatic boring stuff 177 The setdefault() Method
+Automatic boring stuff 179 Removing Whitespace with the strip(), rstrip(), and lstrip() Methods
 Лекция №4 "Качество Кода"
 Прочитать документацию PEP8
 
