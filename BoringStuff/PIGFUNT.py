@@ -32,21 +32,21 @@ for word in message.split():
         prefixConsonants += word[0]
         word = word[1:]
 
-    # Add the Pig Latin ending to the word:
-    while not word[1:].isalpha():
-        if prefixConsonants != '':
-            word += prefixConsonants + 'ay'
-        else:
-            word += 'yay'
+        # Add the Pig Latin ending to the word:
+        while not word[1:].isalpha():
+            if prefixConsonants != '':
+                word += prefixConsonants + 'ay'
+            else:
+                word += 'yay'
 
-    # Set the word back to uppercase or title case:
-    if wasUpper:
-        word = word.upper()
-    if wasTitle:
-        word = word.title()
+            # Set the word back to uppercase or title case:
+            if wasUpper:
+                word = word.upper()
+            if wasTitle:
+                word = word.title()
 
-    # Add the non-letters back to the start or end of the word.
-    pigLatin.append(prefixNonLetters + word + suffixNonLetters)
+            # Add the non-letters back to the start or end of the word.
+            pigLatin.append(prefixNonLetters + word + suffixNonLetters)
 
 # Join all the words back together into a single string:
 print(' '.join(pigLatin))
