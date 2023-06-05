@@ -1,4 +1,4 @@
-Automatic boring stuff 179 Removing Whitespace with the strip(), rstrip(), and lstrip() Methods
+Automatic boring stuff 194 Finding Patterns of Text with Regular Expressions
 Лекция №4 "Качество Кода"
 Прочитать документацию PEP8
 
