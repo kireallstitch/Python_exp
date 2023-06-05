@@ -1,4 +1,4 @@
-Automatic boring stuff 194 Finding Patterns of Text with Regular Expressions
+Automatic boring stuff 196 Grouping with Parenthese
 Лекция №4 "Качество Кода"
 Прочитать документацию PEP8
 
