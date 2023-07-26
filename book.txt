@@ -1,4 +1,4 @@
 Automatic boring stuff 196 Grouping with Parenthese
 Лекция №4 "Качество Кода"
 Прочитать документацию PEP8
-
+ооо
